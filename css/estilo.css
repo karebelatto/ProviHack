@@ -5,7 +5,9 @@
     font-family: 'Roboto', sans-serif;
    
 } */
-
+header{
+    background-color: #012240;
+}
 h1 {
     display: flex;
     align-items: center;
@@ -34,14 +36,14 @@ h1 {
 nav {
     position: sticky;
     top: 0;
-    background-color:#eff2f6;
+    background-color: #012240;
     padding: 12px;
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* HOVER E ACTIVE DOS BOTÕES LOGIN E CADASTRO */
 .icone-e-texto:hover {
-    background-color: #ced8e3
+    background-color: #012240
 }
 
 button:hover {
@@ -54,7 +56,9 @@ button:active {
 
 /* CLASSE DO MENU NAVEGAÇÃO */
 
-
+.row{
+    align-items: center;
+}
 
 
 /* CLASSE DO PARÁGRAFO DE APRESENTAÇÃO */
