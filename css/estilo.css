@@ -1,8 +1,23 @@
+/* 
 *{
-
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
    
+} */
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2vh;
+    font-family: 'Heebo', sans-serif;
+    color: #253241;
+    padding: 30px;
+    background-color: #becbda;
+    
 }
+
 #cor{
 
     color:#f15858;
@@ -16,21 +31,75 @@
   
 }
 
-header,main,footer,img{
-
-    width: 960px;
-   margin: auto;
-    
-
+nav {
+    position: sticky;
+    top: 0;
+    background-color:#eff2f6;
+    padding: 12px;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* HOVER E ACTIVE DOS BOTÕES LOGIN E CADASTRO */
+.icone-e-texto:hover {
+    background-color: #ced8e3
 }
 
-footer{
-  text-align: right;
-  border-top: 1px solid gray;
-  padding: 12px;
+button:hover {
+    background-color: #ced8e3
 }
+
+button:active {
+    background-color: #aebed0;
+}
+
+/* CLASSE DO MENU NAVEGAÇÃO */
+
+
+
+
+/* CLASSE DO PARÁGRAFO DE APRESENTAÇÃO */
+.grid-da-section-um {
+    background-color: #3B4F67;
+    display: flex;
+    padding: 0px 0px 0px 80px;
+    margin-top: 0px;    
+    justify-content: center;
+    /* width: 100%; */
+    align-items: center;
+}
+
 p{
 
     text-align: left;
 }
+
+h5 {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+/* main {
+    display: grid;
+    padding: 50px;
+    height: 100vh;
+    
+} */
+
+
+
+footer  {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    min-height: 5vh;
+    align-items: center;    
+    justify-content: space-between;
+    grid-column: 1/-1;
+    padding: 10px;
+    
+}
+
+
 
