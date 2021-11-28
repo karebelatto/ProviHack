@@ -84,15 +84,11 @@ h5 {
     
 }
 
-/* main {
-    display: grid;
-    padding: 50px;
-    height: 100vh;
-    
-} */
+.column{
+    display: flex;
+    flex-direction: column;
 
-
-
+}
 footer  {
     display: flex;
     flex-direction: row;
