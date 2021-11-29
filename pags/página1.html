@@ -17,11 +17,12 @@
     crossorigin="anonymous"></script>
   <title id="color">Acesse Visual</title>
 </head>
+
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #012240;">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#" style="color: #ffff;"> AV Acesse Visual</a>
+        <a class="navbar-brand" href="/index.html" style="color: #ffff;"> AV Acesse Visual</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,7 +30,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="color: #ffff;">
           <div class="navbar-nav">
             <a class="nav-link" href="/index.html" style="color: #ffff;">Home</a>
-            <a class="nav-link" href="#" style="color: #ffff;">Quem Somos</a>
+            <a class="nav-link" href="/pags/Sobre-nos.html" style="color: #ffff;">Quem Somos</a>
             <a class="nav-link" href="/pags/página1.html" style="color: #ffff;">O que fazemos</a>
           </div>
         </div>
@@ -37,22 +38,54 @@
     </nav>
   </header>
 
-  <main  style="background-color: #073967;">
+  <main style="background-color: #073967;">
     <div class="container">
-      <div class="row">
+      <div class="flex-grow-1 ms-3 row">
         <div class="col" class="textoPrincipal" style="color: #ffff">
-          <p >
+          <p>
             <strong>Como fazer uma descrição</strong>
             1º Faça o upload de uma foto do seu produto;
-            2º Faça a descrição detalhada do seu produto, começando sempre pelo tipo de imagem, fundo, 
-            ponto principal da imagem e os detalhes. Sempre partindo do espectro maior para o menor, 
+            2º Faça a descrição detalhada do seu produto, começando sempre pelo tipo de imagem, fundo,
+            ponto principal da imagem e os detalhes. Sempre partindo do espectro maior para o menor,
             como se você estivesse contando uma história
           </p>
-          <input type="file" name="arquivos" class="btn btn-success" multiple/>
+          <input type="file" name="arquivos" class="btn btn-success" multiple />
         </div>
         <div class="col" class="column">
-          <img id="destaque" src="/img/Frame4.jpeg" alt="" width=",350px" height="200px" />
-          <button type="button" class="btn btn-warning">Enviar</button>
+          <img id="destaque" src="/img/Frame4.jpeg" alt="" width=",450px" height="400px" />
+
+
+
+          <div class="d-flex align-items-start mb-3">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1"
+              placeholder="Descreva aqui qual o tipo da imagem (foto, ilustração...)">
+          </div>
+
+          <div class="mb-3 " style="text-align: right;">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1"
+              placeholder="Descreva aqui qual o tipo de fundo (cores, imagem...)">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1"
+              placeholder="Descreva aqui o ponto principal da imagem (mulher, homem, animal, produto...)">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1"
+              placeholder="Descreva aqui os detalhes da imagem (roupas, objetos, detalhes do ambiente...)">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+              placeholder="Descrição do produto (para venda geral)*"></textarea>
+          </div>
+          <div class="col-lg-12" style="text-align: left;">
+            <button type="button" class="btn btn-warning">Enviar</button>
+          </div>
+
         </div>
       </div>
     </div>
@@ -60,7 +93,7 @@
   </main>
 
   <footer style="background-color: #1D5588; color:#ffff">
-    <div class="footer-um">
+    <div class="footer-um ">
       <p>Quem somos</p>
       <p>O que fazemos </p>
       <p>Clientes</p>
@@ -74,7 +107,7 @@
 
     <div class="footer-dois">
       <h3>ACESSE VISUAL</h3>
-     <img src="/img/components.jpeg" alt="icones do instagram, facebook e linkedin" height="40px">
+      <img src="/img/components.jpeg" alt="icones do instagram, facebook e linkedin" height="40px">
     </div>
   </footer>
 </body>
