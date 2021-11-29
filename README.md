@@ -4,10 +4,9 @@
 
 - Olá, somos a Acesse Visual 
 - Somos uma consultoria de acessibilidade, específica para descrição de imagens, voltada para e commerce. 
-Oferecemos uma  demo dentro do nosso site institucional, para que o cliente possa entender como que funcionaria o nosso processo de áudio descrição no seu site.
+Oferecemos uma demo dentro do nosso site institucional, para que o cliente possa entender como que funcionaria o nosso processo de audiodescrição no seu site.
 
-
-- Quer viver no futuro com a gente? 
+ 
 - Utilizamos as ferramentas de HTML, CSS e Bootstrap no VS code
 - Implementamos Acessibilidades
 
