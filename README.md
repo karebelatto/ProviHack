@@ -3,7 +3,9 @@
 - É um evento de aproximadamente 2 dias focado em entregar um produto de tecnologia que resolva uma dor de um público
 
 - Olá, somos a Acesse Visual 
-Nascemos para ajudar empreendedores brasileiros que buscam acelerar sua transformação de acessibilidade visual. Além de parceiros, somos educadores que propagam boas práticas auxiliando empresas que vivem o futuro.
+- Somos uma consultoria de acessibilidade, específica para descrição de imagens, voltada para e commerce. 
+Oferecemos uma  demo dentro do nosso site institucional, para que o cliente possa entender como que funcionaria o nosso processo de áudio descrição no seu site.
+
 
 - Quer viver no futuro com a gente? 
 - Utilizamos as ferramentas de HTML, CSS e Bootstrap no VS code
