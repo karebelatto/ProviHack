@@ -10,7 +10,7 @@ Além de parceiros, somos educadores que propagam boas práticas auxiliando empr
 
 - Quer viver no futuro com a gente? 
 
-🛠 #Tecnologias
+# 🛠 Tecnologias
 
  . Front end
 -  HTML
@@ -20,7 +20,7 @@ Além de parceiros, somos educadores que propagam boas práticas auxiliando empr
 
 
 
-🎨  # Layout Web
+# 🎨   Layout Web
 
 ![print 2](https://user-images.githubusercontent.com/59877258/143799500-80deaad3-06f3-40af-b43b-5bc625ca0a54.png)
 ![provi3](https://user-images.githubusercontent.com/59877258/143799504-26f04bf6-49ce-4ed0-8090-a88eb4c36a16.png)
