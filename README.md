@@ -12,7 +12,8 @@ Além de parceiros, somos educadores que propagam boas práticas auxiliando empr
 
 # Ferramentas
 
- Usamos as ferramentas HTML, CSS, Bootstrap e Implementamos Acessibilidades
+- Utilizamos as ferramentas de HTML, CSS e Bootstrap no VS code
+- Implementamos Acessibilidades
 
 
 
